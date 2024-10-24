@@ -17,3 +17,4 @@ Terragrunt by gruntwork was built to improve the shortcomings around the Terrafo
 
 **References:**
 * (blog by terragrunt developers) https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-terragrunt-2c3e32fc60a8
+* (remote state for multiple accounts) https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/
