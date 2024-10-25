@@ -76,12 +76,10 @@ Code structure
 │           ├── main.tf
 │           └── output.tf
 ├── infra-using-terragrunt
-│   ├── backend.tf
 │   ├── dev
 │   │   └── vpc
 │   │       └── terragrunt.hcl
-│   ├── provider.tf
 │   ├── staging
 │   │   └── vpc
 │   │       └── terragrunt.hcl
-│   └── terragrunt.hcl```
+│   └── terragrunt.hcl
