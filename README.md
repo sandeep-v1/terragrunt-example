@@ -43,6 +43,7 @@ We will go over different structure of terraform and look at extensibility.
 **References:**
 * (blog by terragrunt developers) https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-using-terragrunt-2c3e32fc60a8
 * (remote state for multiple accounts) https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/
+* (migration from tf to tg) https://medium.com/deutsche-telekom-gurgaon/terraform-to-terragrunt-migration-guide-27f65fad006d
 
 Code structure
 
