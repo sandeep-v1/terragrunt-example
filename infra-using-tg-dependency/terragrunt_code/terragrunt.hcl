@@ -25,7 +25,7 @@ generate "backend" {
   contents = <<EOF
 terraform {
   backend "s3" {
-    bucket         = "demo-terraform-backend1"
+    bucket         = "tg-dependency-check"
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
   }
