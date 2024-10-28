@@ -3,18 +3,20 @@ Here we are defining how to add Dependencies between modules in Terragrunt and c
 
 The dependency graph could be checked with following command
 
-```
+
  terragrunt_code git:(main) ✗ terragrunt  graph-dependencies 
-digraph {
-        "/Users/sandeepbelagavi/repos/terragrunt-dependencies-and-terraform-checks/terragrunt_code" ;
-        "ec2" ;
-        "ec2" -> "security_group";
-        "ec2" -> "iam_instance_profile";
-        "iam" ;
-        "iam_instance_profile" ;
-        "iam_instance_profile" -> "iam";
-        "security_group" ;
-}```
+>```
+>digraph {
+>        "/Users/sandeepbelagavi/repos/terragrunt-dependencies-and-terraform-checks/terragrunt_code" ;
+>        "ec2" ;
+>        "ec2" -> "security_group";
+>        "ec2" -> "iam_instance_profile";
+>        "iam" ;
+>        "iam_instance_profile" ;
+>        "iam_instance_profile" -> "iam";
+>        "security_group" ;
+>}
+>```
 
 Example of how run-all plan would look like with dependency
 
@@ -323,4 +325,4 @@ Group 3
 12:00:01.448 STDOUT [ec2] terraform: ─────────────────────────────────────────────────────────────────────────────
 12:00:01.448 STDOUT [ec2] terraform: Note: You didn't use the -out option to save this plan, so Terraform can't
 12:00:01.448 STDOUT [ec2] terraform: guarantee to take exactly these actions if you run "terraform apply" now.
-```
+`
